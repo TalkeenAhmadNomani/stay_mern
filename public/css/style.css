@@ -1,0 +1,100 @@
+/* body {
+    background-color: pink;
+} */
+ body {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+ }
+ .container {
+   flex: 1;
+ }
+ .navbar {
+    height: 5rem;
+    background-color: white;
+  
+ }
+ .fa-house-chimney-user {
+    color: #32CD32;
+    font-size: 2rem;
+ }
+ .nav-link {
+    color: #222222 !important;
+ }
+ /* footer */
+ .footer-info-link a {
+    text-decoration: none;
+    color: #222222;
+
+ }
+ .footer-info-link a:hover {
+    text-decoration: underline;
+ }
+ .footer-info-link {
+    width: 100%;
+
+ }
+ .footer-info-social {
+    width: 100%;
+    
+    
+ }
+ .footer-info-social i {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  margin-top: .4rem;
+    
+ }
+ .footer-info{
+    text-align: center;
+    height: 8rem;
+    display: flex;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+ }
+ /* cards */
+ .listing-card {
+    
+    border: none !important;
+    margin-bottom: 2rem !important;
+ }
+ .card-img-top {
+    border-radius: 1rem  !important;
+    width: 100% !important;
+    object-fit: cover !important;
+ }
+ .card-body {
+    padding: 0 !important;
+
+ }
+ 
+ .card-text p {
+    font-weight: 400;
+   
+ }
+ .listing-link {
+    text-decoration: none;
+    color: #222222;
+ }
+ /* effect */
+ .card-img-overlay {
+    opacity: 0;
+    
+ }
+ .card-img-overlay:hover {
+    opacity: 0.5;
+    background-color: white;
+
+ }
+ .add-btn {
+   background-color: #32CD32 !important;
+   color: #222222 !important;
+   border: none !important;
+
+ }
+/* show page */
+.show-img {
+   height: 30vh;
+}

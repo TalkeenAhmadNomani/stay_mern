@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-md bg-light border-bottom sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/"><i class="fa-solid fa-house-chimney-user"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link "  href="/">Home</a>
+          <a class="nav-link" href="/listing">All listing</a>
+          <a class="nav-link" href="/listing/new">Add new listing</a>
+          
+        </div>
+        
+
+      <div class="navbar-nav ms-auto">
+<!-- here current user is req.user, that gives undefined if user is not loged in, it givers user information if logend in , and ejs template can,t access directrly req.user but local can accresds, so in app.js we reserve req.user in curruser that we are using in this  -->
+          <% if(!currUser) { %>  
+          <a class="nav-link"  href="/signup"><b>Sign up</b></a>
+          <a class="nav-link" href="/login"><b>Log in</b></a>
+          <% } %> <% if(currUser) { %>
+          <a class="nav-link" href="/logout">Log out</a>
+          <% } %>
+        </div>
+    </div>
+  </nav>
