@@ -15,11 +15,10 @@
   <% if (list.owner) { %>
     <i><%= list.owner.username %></i>
   <% } else { %>
-    <i>Unknown Owner, </i>
+    <i>Unknown Owner </i>
   <% } %>
 </p>
       <br>
-        
         <%= list.description %> <br>
         &#8377; 
         <% if (list.price !== undefined && list.price !== null) { %>
