@@ -2,8 +2,7 @@
 <body>
 <div  class="row">
     <div class="col-8 offset-2" >
-
-    <h3>create new listing</h3>
+    <h3>create your own listing</h3>
     <form  method="post" action="/listing" novalidate class="needs-validation" enctype="multipart/form-data">
         <div class="mb-3">
             <label for="title"> Title</label>
@@ -23,8 +22,7 @@
             <div class="mb-3 col-md-4" >
        
                 <label for="price" class = "form-label">Enter price</label>
-                <input name="listing[price]" type="number" placeholder="enter price" class="form-control" required>
-                
+                <input name="listing[price]" type="number" placeholder="enter price" class="form-control" required>          
             </div>
             <div class="mb-3 col-md-8">
                 <label for="country" class = "form-label">enter country</label>
@@ -34,10 +32,6 @@
             
         </div>
       
-      
-        
-        
-        
         <div class="mb-3" >
             <label for="location" class = "form-label">enter location</label>
             <input name="listing[location]" type="text" placeholder="enter location"class="form-control" required>
