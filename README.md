@@ -8,7 +8,7 @@ User Authentication: Secure login and registration using Passport.js.
 
 Protected Routes: Users must be authenticated to create listings, book properties, and leave reviews.
 
-Property Listings: Users can add, edit, and delete property listings.
+Property Listings: Users can add, edit, and delete property listing.
 
 Booking System: Enables users to book properties based on availability.
 
