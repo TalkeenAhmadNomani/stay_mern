@@ -2,7 +2,7 @@
 
 ## Staysleek is a full-stack web application for property rental, allowing users to list properties, book stays, and leave reviews. Built using the MERN stack with EJS for templating and Passport.js for authentication, it ensures secure and seamless user interactions.
 
-## Features.
+## Features
 
 User Authentication: Secure login and registration using Passport.js.
 
